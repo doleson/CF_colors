@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cardo'), local('Cardo-Regular'), url(http://themes.googleusercontent.com/static/fonts/cardo/v5/c6Zi_ulq7hv-avk-G9Yut6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+@font-face {
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bevan'), url(http://themes.googleusercontent.com/static/fonts/bevan/v4/EJh9uh2wkQP9ayreC3xPZaCWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+
+.logo {
+  width: 60px;
+  height: 46px;
+  margin-top: 8px;
+  margin-left: 5px;
+  text-align:center;
+}
+
+.logo-box {
+  height: 65px;
+  width: 70px;
+  background: #222;
+  margin-right: 10px;
+  margin-left:auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+body {
+    font-family: 'Cardo', serif;
+}
+
+h1 {
+  font-family: 'Bevan', serif;
+  font-size: 3.0em;
+  display: block;
+  -webkit-margin-before: 0.3em;
+  -webkit-margin-after: 0.3em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Cardo', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+header {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+p { line-height: 1.8em; font-family: 'Cardo', serif; font-size: 1.2em; margin-bottom: 0px;}
+
+#vis {
+  width: inherit;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  clear: both;
+}
+
+footer {
+  text-align: center;
+}
+
+#inputbox {
+  position: relative;
+  top:15px;
+}
+
+#lang_legend div{
+  display:inline;
+}
+
+.lang-radio-checked {
+  border-bottom: solid white;
+  border-bottom-width: 10px;
+}
+
+#tool td,th{
+  vertical-align: middle;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 3px;
+  padding-right: 3px;
+}
